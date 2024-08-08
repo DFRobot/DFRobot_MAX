@@ -263,7 +263,7 @@ void loop()
       RGBtime = millis();
     }
     myMax.lineLED(1); //开巡线传感器LED灯
-
+    delay(1);
     if (millis() - 1000 > Smiliestime)//循环表情和表情显示彩色
     {
       myMax.displayEmoticons(ExpressionCnt);
